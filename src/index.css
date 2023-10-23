@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,600&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('../node_modules/sweetalert2/dist/sweetalert2.min.css');
+@import url('../node_modules/animate.css/animate.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.category{
+    @apply border border-neutral-500 pb-1 px-3 py-1 duration-150
+}
+
+.category.active{
+    @apply border bg-neutral-800 text-white  
+}
+
+.swal2-confirm {
+    @apply bg-neutral-700 text-white !important;
+  }
+  
+  .swal2-cancel {
+    @apply bg-neutral-300  !important;
+    @apply text-neutral-700 !important;
+  }
+
+/* .product-card .product-img{
+    @apply duration-300
+}
+
+.product-card:hover .product-img{
+    @apply -rotate-[5deg] 
+} */
+
